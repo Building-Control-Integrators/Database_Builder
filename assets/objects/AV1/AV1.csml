@@ -1,0 +1,23 @@
+<Object name="AV1">
+<Real name="COV_Increment" value="1"/>
+<String name="Description" value=""/>
+<Enumerated name="Event_State" value="normal"/>
+<ObjectIdentifier name="Object_Identifier" value="analog-value,1"/>
+<String name="Object_Name" value="AV1"/>
+<Enumerated name="Object_Type" value="analog-value"/>
+<Boolean name="Out_Of_Service" value="0"/>
+<Real name="Present_Value" value="0"/>
+<Enumerated name="Reliability" value="no-fault-detected"/>
+<BitString name="Status_Flags" value=""/>
+<Enumerated name="Units" value="%"/>
+<Unsigned name="Object_Size" value="51"/>
+<BitString name="Flags" value=""/>
+<Real name="GCL_Value" value="0"/>
+<Boolean name="Reset" value="0"/>
+<ObjectIdentifierPattern name="Last_Writer" value="*"/>
+<DateTimePattern name="Time_Of_Last_Write" value="*-*-* * *:*:*.*"/>
+<Boolean name="Fixed_Point" value="1"/>
+<Unsigned name="Decimal_Places" value="1"/>
+<Real name="Manual_Override" value=""/>
+<BitString name="HAL_Flags" value="hvac"/>
+</Object>

@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>659</width>
+    <height>545</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Database ZOB Builder</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="object_pages">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="analog_objects_tab">
+       <attribute name="title">
+        <string>Analog</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QTabWidget" name="analog_objects_pages">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(239, 239, 239);</string>
+          </property>
+          <property name="tabPosition">
+           <enum>QTabWidget::North</enum>
+          </property>
+          <property name="tabShape">
+           <enum>QTabWidget::Rounded</enum>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <property name="documentMode">
+           <bool>false</bool>
+          </property>
+          <property name="tabsClosable">
+           <bool>false</bool>
+          </property>
+          <property name="movable">
+           <bool>false</bool>
+          </property>
+          <property name="tabBarAutoHide">
+           <bool>false</bool>
+          </property>
+          <widget class="QWidget" name="analog_io_tab">
+           <attribute name="title">
+            <string>I/O</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="0" column="0">
+             <widget class="QTableWidget" name="analog_io_table">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <property name="lineWidth">
+               <number>1</number>
+              </property>
+              <property name="midLineWidth">
+               <number>0</number>
+              </property>
+              <property name="editTriggers">
+               <set>QAbstractItemView::NoEditTriggers</set>
+              </property>
+              <property name="alternatingRowColors">
+               <bool>true</bool>
+              </property>
+              <property name="selectionBehavior">
+               <enum>QAbstractItemView::SelectRows</enum>
+              </property>
+              <property name="showGrid">
+               <bool>true</bool>
+              </property>
+              <property name="gridStyle">
+               <enum>Qt::SolidLine</enum>
+              </property>
+              <property name="sortingEnabled">
+               <bool>true</bool>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+              <property name="cornerButtonEnabled">
+               <bool>false</bool>
+              </property>
+              <attribute name="horizontalHeaderCascadingSectionResizes">
+               <bool>false</bool>
+              </attribute>
+              <attribute name="horizontalHeaderHighlightSections">
+               <bool>true</bool>
+              </attribute>
+              <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+               <bool>true</bool>
+              </attribute>
+              <attribute name="horizontalHeaderStretchLastSection">
+               <bool>true</bool>
+              </attribute>
+              <attribute name="verticalHeaderStretchLastSection">
+               <bool>false</bool>
+              </attribute>
+              <column>
+               <property name="text">
+                <string>Point Instance</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Point Name</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Configuration</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <layout class="QVBoxLayout" name="verticalLayout_9">
+              <item>
+               <widget class="QLabel" name="analog_io_point_instance_label">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>Point Instance:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="analog_io_point_instance_input">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="analog_io_point_name_label">
+                <property name="text">
+                 <string>Point Name:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="analog_io_point_name_input">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="analog_io_point_config_label">
+                <property name="text">
+                 <string>Configuration:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="analog_io_point_config_input">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QPushButton" name="analog_io_update_row_button">
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>Update Row</string>
+                </property>
+                <property name="autoDefault">
+                 <bool>false</bool>
+                </property>
+                <property name="default">
+                 <bool>false</bool>
+                </property>
+                <property name="flat">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="analog_io_add_row_button">
+                <property name="text">
+                 <string>Add Row</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="analog_io_copy_row_button">
+                <property name="text">
+                 <string>Copy Row</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QPushButton" name="analog_io_delete_row_button">
+                <property name="text">
+                 <string>Delete Row</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="analog_variables_tab">
+           <attribute name="title">
+            <string>Analog Variables</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_5">
+            <item row="0" column="0">
+             <widget class="QTableWidget" name="analog_var_table">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <property name="lineWidth">
+               <number>1</number>
+              </property>
+              <property name="midLineWidth">
+               <number>0</number>
+              </property>
+              <property name="editTriggers">
+               <set>QAbstractItemView::NoEditTriggers</set>
+              </property>
+              <property name="alternatingRowColors">
+               <bool>true</bool>
+              </property>
+              <property name="selectionBehavior">
+               <enum>QAbstractItemView::SelectRows</enum>
+              </property>
+              <property name="showGrid">
+               <bool>true</bool>
+              </property>
+              <property name="gridStyle">
+               <enum>Qt::SolidLine</enum>
+              </property>
+              <property name="sortingEnabled">
+               <bool>true</bool>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+              <property name="cornerButtonEnabled">
+               <bool>false</bool>
+              </property>
+              <attribute name="horizontalHeaderCascadingSectionResizes">
+               <bool>false</bool>
+              </attribute>
+              <attribute name="horizontalHeaderHighlightSections">
+               <bool>true</bool>
+              </attribute>
+              <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+               <bool>true</bool>
+              </attribute>
+              <attribute name="horizontalHeaderStretchLastSection">
+               <bool>true</bool>
+              </attribute>
+              <attribute name="verticalHeaderStretchLastSection">
+               <bool>false</bool>
+              </attribute>
+              <column>
+               <property name="text">
+                <string>Point Instance</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Point Name</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Configuration</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <layout class="QVBoxLayout" name="verticalLayout_10">
+              <item>
+               <widget class="QLabel" name="analog_var_point_instance_label">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>Point Instance:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="analog_var_point_instance_input">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="analog_var_point_name_label">
+                <property name="text">
+                 <string>Point Name:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="analog_var_point_name_input">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="analog_var_point_config_label">
+                <property name="text">
+                 <string>Configuration:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="analog_var_point_config_input">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QPushButton" name="analog_var_update_row_button">
+                <property name="text">
+                 <string>Update Row</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="analog_var_add_row_button">
+                <property name="text">
+                 <string>Add Row</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="analog_var_copy_row_button">
+                <property name="text">
+                 <string>Copy Row</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_4">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QPushButton" name="analog_var_delete_row_button">
+                <property name="text">
+                 <string>Delete Row</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="binary_objects_tab">
+       <attribute name="title">
+        <string>Binary</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <item row="0" column="0">
+         <widget class="QTabWidget" name="binary_objects_pages">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::TabFocus</enum>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(239, 239, 239);</string>
+          </property>
+          <property name="tabPosition">
+           <enum>QTabWidget::North</enum>
+          </property>
+          <property name="tabShape">
+           <enum>QTabWidget::Rounded</enum>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>16</width>
+            <height>16</height>
+           </size>
+          </property>
+          <property name="elideMode">
+           <enum>Qt::ElideNone</enum>
+          </property>
+          <property name="documentMode">
+           <bool>false</bool>
+          </property>
+          <property name="tabsClosable">
+           <bool>false</bool>
+          </property>
+          <property name="movable">
+           <bool>false</bool>
+          </property>
+          <property name="tabBarAutoHide">
+           <bool>false</bool>
+          </property>
+          <widget class="QWidget" name="binary_io_tab">
+           <attribute name="title">
+            <string>I/O</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_6">
+            <item row="0" column="0">
+             <widget class="QTableWidget" name="binary_io_table">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <property name="lineWidth">
+               <number>1</number>
+              </property>
+              <property name="midLineWidth">
+               <number>0</number>
+              </property>
+              <property name="editTriggers">
+               <set>QAbstractItemView::NoEditTriggers</set>
+              </property>
+              <property name="alternatingRowColors">
+               <bool>true</bool>
+              </property>
+              <property name="selectionBehavior">
+               <enum>QAbstractItemView::SelectRows</enum>
+              </property>
+              <property name="showGrid">
+               <bool>true</bool>
+              </property>
+              <property name="gridStyle">
+               <enum>Qt::SolidLine</enum>
+              </property>
+              <property name="sortingEnabled">
+               <bool>true</bool>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+              <property name="cornerButtonEnabled">
+               <bool>false</bool>
+              </property>
+              <attribute name="horizontalHeaderCascadingSectionResizes">
+               <bool>false</bool>
+              </attribute>
+              <attribute name="horizontalHeaderHighlightSections">
+               <bool>true</bool>
+              </attribute>
+              <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+               <bool>true</bool>
+              </attribute>
+              <attribute name="horizontalHeaderStretchLastSection">
+               <bool>true</bool>
+              </attribute>
+              <attribute name="verticalHeaderStretchLastSection">
+               <bool>false</bool>
+              </attribute>
+              <column>
+               <property name="text">
+                <string>Point Instance</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Point Name</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Configuration</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <layout class="QVBoxLayout" name="verticalLayout_11">
+              <item>
+               <widget class="QLabel" name="binary_io_point_instance_label">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>Point Instance:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="binary_io_point_instance_input">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="binary_io_point_name_label">
+                <property name="text">
+                 <string>Point Name:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="binary_io_point_name_input">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="binary_io_point_config_label">
+                <property name="text">
+                 <string>Configuration:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="binary_io_point_config_input">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_5">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QPushButton" name="binary_io_update_row_button">
+                <property name="text">
+                 <string>Update Row</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="binary_io_add_row_button">
+                <property name="text">
+                 <string>Add Row</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="binary_io_copy_row_button">
+                <property name="text">
+                 <string>Copy Row</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_6">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QPushButton" name="binary_io_delete_row_button">
+                <property name="text">
+                 <string>Delete Row</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="binary_variables_tab">
+           <attribute name="title">
+            <string>Binary Variables</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_7">
+            <item row="0" column="0">
+             <widget class="QTableWidget" name="binary_var_table">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <property name="lineWidth">
+               <number>1</number>
+              </property>
+              <property name="midLineWidth">
+               <number>0</number>
+              </property>
+              <property name="editTriggers">
+               <set>QAbstractItemView::NoEditTriggers</set>
+              </property>
+              <property name="alternatingRowColors">
+               <bool>true</bool>
+              </property>
+              <property name="selectionBehavior">
+               <enum>QAbstractItemView::SelectRows</enum>
+              </property>
+              <property name="showGrid">
+               <bool>true</bool>
+              </property>
+              <property name="gridStyle">
+               <enum>Qt::SolidLine</enum>
+              </property>
+              <property name="sortingEnabled">
+               <bool>true</bool>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+              <property name="cornerButtonEnabled">
+               <bool>false</bool>
+              </property>
+              <attribute name="horizontalHeaderCascadingSectionResizes">
+               <bool>false</bool>
+              </attribute>
+              <attribute name="horizontalHeaderHighlightSections">
+               <bool>true</bool>
+              </attribute>
+              <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+               <bool>true</bool>
+              </attribute>
+              <attribute name="horizontalHeaderStretchLastSection">
+               <bool>true</bool>
+              </attribute>
+              <attribute name="verticalHeaderStretchLastSection">
+               <bool>false</bool>
+              </attribute>
+              <column>
+               <property name="text">
+                <string>Point Instance</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Point Name</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Configuration</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <layout class="QVBoxLayout" name="verticalLayout_12">
+              <item>
+               <widget class="QLabel" name="binary_var_point_instance_label">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>Point Instance:</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="binary_var_point_instance_input">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="binary_var_point_name_label">
+                <property name="text">
+                 <string>Point Name:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="binary_var_point_name_input">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="binary_var_point_config_label">
+                <property name="text">
+                 <string>Configuration:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="binary_var_point_config_input">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_7">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QPushButton" name="binary_var_update_row_button">
+                <property name="text">
+                 <string>Update Row</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="binary_var_add_row_button">
+                <property name="text">
+                 <string>Add Row</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="binary_var_copy_row_button">
+                <property name="text">
+                 <string>Copy Row</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="verticalSpacer_8">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>20</width>
+                  <height>40</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QPushButton" name="binary_var_delete_row_button">
+                <property name="text">
+                 <string>Delete Row</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="multistate_objects_tab">
+       <attribute name="title">
+        <string>Multi-State</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="trend_logs_tab">
+       <attribute name="title">
+        <string>Trend Logs</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="events_tab">
+       <attribute name="title">
+        <string>Events</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="control_loops_tab">
+       <attribute name="title">
+        <string>Control Loops</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="programs_tab">
+       <attribute name="title">
+        <string>Programs</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="4" column="0" alignment="Qt::AlignLeft">
+       <widget class="QPushButton" name="load_file_button">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Load File</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="file_path_string">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>No file selected</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Preferred</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="3" column="0" alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="file_path_label">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>File Path:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QPushButton" name="create_zob_button">
+        <property name="text">
+         <string>Create ZOB</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QPushButton" name="close_button">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Close</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>659</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNewExcelTemplate"/>
+    <addaction name="separator"/>
+    <addaction name="actionClose"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionExcelFormattingInstructions"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNewExcelTemplate">
+   <property name="text">
+    <string>New Excel Template</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionExcelFormattingInstructions">
+   <property name="text">
+    <string>Excel Formatting Instructions</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

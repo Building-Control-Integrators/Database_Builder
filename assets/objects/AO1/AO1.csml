@@ -1,0 +1,126 @@
+<Object name="AO1">
+<BitString name="Acked_Transitions" value=""/>
+<Unsigned name="Notification_Class" value="0"/>
+<Real name="COV_Increment" value="1"/>
+<Real name="Deadband" value="0"/>
+<String name="Description" value=""/>
+<String name="Device_Type" value=""/>
+<BitString name="Event_Enable" value=""/>
+<Enumerated name="Event_State" value="normal"/>
+<Real name="High_Limit" value="0"/>
+<BitString name="Limit_Enable" value=""/>
+<Real name="Low_Limit" value="0"/>
+<Real name="Max_Pres_Value" value="100"/>
+<Real name="Min_Pres_Value" value="0"/>
+<Enumerated name="Notify_Type" value="alarm"/>
+<ObjectIdentifier name="Object_Identifier" value="analog-output,1"/>
+<String name="Object_Name" value="AO1"/>
+<Enumerated name="Object_Type" value="analog-output"/>
+<Boolean name="Out_Of_Service" value="0"/>
+<Real name="Present_Value" value="0"/>
+<Array name="Priority_Array">
+<Real name="1" value=""/>
+<Real name="2" value=""/>
+<Real name="3" value=""/>
+<Real name="4" value=""/>
+<Real name="5" value=""/>
+<Real name="6" value=""/>
+<Real name="7" value=""/>
+<Real name="8" value=""/>
+<Real name="9" value=""/>
+<Real name="10" value=""/>
+<Real name="11" value=""/>
+<Real name="12" value=""/>
+<Real name="13" value=""/>
+<Real name="14" value=""/>
+<Real name="15" value=""/>
+<Real name="16" value=""/>
+</Array>
+<Enumerated name="Reliability" value="no-fault-detected"/>
+<Real name="Relinquish_Default" value="0"/>
+<Real name="Resolution" value="0.392157"/>
+<BitString name="Status_Flags" value=""/>
+<Unsigned name="Time_Delay" value="0"/>
+<Enumerated name="Units" value="%"/>
+<Array name="Event_Time_Stamps">
+<Choice name="1">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+<Choice name="2">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+<Choice name="3">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+</Array>
+<Unsigned name="Object_Size" value="359"/>
+<BitString name="Flags" value="not-commissioned"/>
+<Boolean name="Reset" value="0"/>
+<Enumerated name="Commission_Flag" value="not-commissioned"/>
+<ObjectIdentifierPattern name="Type_Reference" value="*"/>
+<Boolean name="Critical_Control" value="1"/>
+<Unsigned name="Current_Priority" value="17"/>
+<Array name="Last_Writer">
+<ObjectIdentifierPattern name="1" value="*"/>
+<ObjectIdentifierPattern name="2" value="*"/>
+<ObjectIdentifierPattern name="3" value="*"/>
+<ObjectIdentifierPattern name="4" value="*"/>
+<ObjectIdentifierPattern name="5" value="*"/>
+<ObjectIdentifierPattern name="6" value="*"/>
+<ObjectIdentifierPattern name="7" value="*"/>
+<ObjectIdentifierPattern name="8" value="*"/>
+<ObjectIdentifierPattern name="9" value="*"/>
+<ObjectIdentifierPattern name="10" value="*"/>
+<ObjectIdentifierPattern name="11" value="*"/>
+<ObjectIdentifierPattern name="12" value="*"/>
+<ObjectIdentifierPattern name="13" value="*"/>
+<ObjectIdentifierPattern name="14" value="*"/>
+<ObjectIdentifierPattern name="15" value="*"/>
+<ObjectIdentifierPattern name="16" value="*"/>
+</Array>
+<Array name="Time_Of_Last_Write">
+<DateTimePattern name="1" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="2" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="3" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="4" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="5" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="6" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="7" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="8" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="9" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="10" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="11" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="12" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="13" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="14" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="15" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="16" value="*-*-* * *:*:*.*"/>
+</Array>
+<Enumerated name="Polarity" value="normal"/>
+<Unsigned name="DA_Value" value="0"/>
+<Real name="Output_Volt" value="0"/>
+<Enumerated name="Port_1_Status" value="not-available"/>
+<Enumerated name="Port_2_Status" value="not-available"/>
+<Enumerated name="Module_Type" value="none"/>
+<Enumerated name="HOA_Status" value="auto"/>
+<Real name="FBack_Value" value="0"/>
+<Enumerated name="FBack_Enable" value="disable"/>
+<Unsigned name="FBack_Input" value="0"/>
+<Enumerated name="FBack_Status" value="not-available"/>
+<Real name="FBack_High" value="0"/>
+<Real name="FBack_Low" value="0"/>
+<Unsigned name="Analog_3_PT_Timer" value="0"/>
+<Enumerated name="Analog_3_PT_Output_1" value="inactive"/>
+<Enumerated name="Analog_3_PT_Output_2" value="inactive"/>
+<Enumerated name="Analog_3_PT_Output_Action" value="close"/>
+<Real name="Manual_Override" value=""/>
+<BitString name="HAL_Flags" value="hvac"/>
+<Boolean name="Event_Detection_Enable" value="0"/>
+<Array name="Intrinsic_Info">
+</Array>
+<Array name="Event_Message_Texts_Config">
+<String name="1" value=""/>
+<String name="2" value=""/>
+<String name="3" value=""/>
+</Array>
+</Object>

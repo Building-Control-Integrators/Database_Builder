@@ -1,0 +1,62 @@
+<Object name="AI1">
+<BitString name="Acked_Transitions" value=""/>
+<Unsigned name="Notification_Class" value="0"/>
+<Real name="COV_Increment" value="1"/>
+<Real name="Deadband" value="0"/>
+<String name="Description" value=""/>
+<String name="Device_Type" value=""/>
+<BitString name="Event_Enable" value=""/>
+<Enumerated name="Event_State" value="normal"/>
+<Real name="High_Limit" value="0"/>
+<BitString name="Limit_Enable" value=""/>
+<Real name="Low_Limit" value="0"/>
+<Real name="Max_Pres_Value" value="100"/>
+<Real name="Min_Pres_Value" value="0"/>
+<Enumerated name="Notify_Type" value="alarm"/>
+<ObjectIdentifier name="Object_Identifier" value="analog-input,1"/>
+<String name="Object_Name" value="AI1"/>
+<Enumerated name="Object_Type" value="analog-input"/>
+<Boolean name="Out_Of_Service" value="0"/>
+<Real name="Present_Value" value="0"/>
+<Enumerated name="Reliability" value="no-fault-detected"/>
+<Real name="Resolution" value="0.02442"/>
+<BitString name="Status_Flags" value=""/>
+<Unsigned name="Time_Delay" value="0"/>
+<Enumerated name="Units" value="%"/>
+<Unsigned name="Update_Interval" value="200"/>
+<Array name="Event_Time_Stamps">
+<Choice name="1">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+<Choice name="2">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+<Choice name="3">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+</Array>
+<Unsigned name="Object_Size" value="69"/>
+<BitString name="Flags" value="not-commissioned"/>
+<Real name="Last_Value" value="0"/>
+<Boolean name="Reset" value="0"/>
+<Enumerated name="Commission_Flag" value="not-commissioned"/>
+<ObjectIdentifierPattern name="Type_Reference" value="*"/>
+<Unsigned name="AD_Filter" value="80"/>
+<Unsigned name="Filter_Delay_Timer" value="249599"/>
+<Unsigned name="AD_Value" value="0"/>
+<Real name="Calibration" value="0"/>
+<Boolean name="Fixed_Point" value="1"/>
+<Unsigned name="Decimal_Places" value="1"/>
+<Boolean name="External_Control" value="0"/>
+<Enumerated name="Previous_Reliability" value="no-fault-detected"/>
+<Real name="Manual_Override" value=""/>
+<BitString name="HAL_Flags" value="hvac"/>
+<Boolean name="Event_Detection_Enable" value="0"/>
+<Array name="Intrinsic_Info">
+</Array>
+<Array name="Event_Message_Texts_Config">
+<String name="1" value=""/>
+<String name="2" value=""/>
+<String name="3" value=""/>
+</Array>
+</Object>

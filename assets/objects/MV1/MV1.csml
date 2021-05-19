@@ -1,0 +1,26 @@
+<Object name="MV1">
+<String name="Description" value=""/>
+<Enumerated name="Event_State" value="normal"/>
+<Unsigned name="Number_Of_States" value="2"/>
+<ObjectIdentifier name="Object_Identifier" value="multi-state-value,1"/>
+<String name="Object_Name" value="MV1"/>
+<Enumerated name="Object_Type" value="multi-state-value"/>
+<Boolean name="Out_Of_Service" value="0"/>
+<Unsigned name="Present_Value" value="1"/>
+<Enumerated name="Reliability" value="missing-cfg-object"/>
+<Array name="State_Text">
+<String name="1" value="OFF"/>
+<String name="2" value="ON"/>
+</Array>
+<BitString name="Status_Flags" value="fault"/>
+<Unsigned name="Object_Size" value="42"/>
+<BitString name="Flags" value="fault"/>
+<Unsigned name="GCL_Value" value="1"/>
+<Boolean name="Reset" value="0"/>
+<ObjectIdentifierPattern name="Type_Reference" value="*"/>
+<ObjectIdentifierPattern name="Last_Writer" value="*"/>
+<DateTimePattern name="Time_Of_Last_Write" value="*-*-* * *:*:*.*"/>
+<String name="Text_Value" value="OFF"/>
+<Unsigned name="Manual_Override" value=""/>
+<BitString name="HAL_Flags" value="hvac"/>
+</Object>

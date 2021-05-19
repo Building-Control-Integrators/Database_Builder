@@ -1,0 +1,436 @@
+<Object name="TL1">
+<BitString name="Acked_Transitions" value="to-offnormal;to-fault;to-normal"/>
+<Unsigned name="Notification_Class" value="9"/>
+<String name="Description" value=""/>
+<BitString name="Event_Enable" value=""/>
+<Enumerated name="Event_State" value="normal"/>
+<Enumerated name="Notify_Type" value="event"/>
+<ObjectIdentifier name="Object_Identifier" value="trend-log,1"/>
+<String name="Object_Name" value="TL1"/>
+<Enumerated name="Object_Type" value="trend-log"/>
+<Unsigned name="Buffer_Size" value="100"/>
+<Real name="Client_COV_Increment" value="0"/>
+<Unsigned name="COV_Resubscription_Interval" value="1800"/>
+<Array name="Event_Time_Stamps">
+<Choice name="1">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+<Choice name="2">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+<Choice name="3">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+</Array>
+<Sequence name="Log_DeviceObjectProperty">
+<Unsigned name="deviceIdentifier" value="4194303"/>
+<ObjectIdentifier name="objectIdentifier" value="*"/>
+<Enumerated name="propertyIdentifier" value="4194303"/>
+<Unsigned name="propertyArrayIndex" value="4294967295"/>
+</Sequence>
+<Boolean name="Enable" value="1"/>
+<Unsigned name="Log_Interval" value="6000"/>
+<Unsigned name="Notification_Threshold" value="50"/>
+<Unsigned name="Records_Since_Notification" value="1"/>
+<Unsigned name="Record_Count" value="1"/>
+<DateTime name="Start_Time" value="2021-05-12 00:00:00.00"/>
+<DateTimePattern name="Stop_Time" value="*-*-* * *:*:*.*"/>
+<Boolean name="Stop_When_Full" value="0"/>
+<Unsigned name="Total_Record_Count" value="1"/>
+<Unsigned name="Last_Notify_Record" value="0"/>
+<Unsigned name="Object_Size" value="1197"/>
+<BitString name="Flags" value=""/>
+<Enumerated name="Present_Value" value="trending"/>
+<Boolean name="Out_Of_Service" value="0"/>
+<Boolean name="Reset" value="0"/>
+<Sequence name="Input_Ref">
+<Unsigned name="deviceIdentifier" value="4194303"/>
+<ObjectIdentifier name="objectIdentifier" value="*"/>
+<Enumerated name="propertyIdentifier" value="4194303"/>
+<Unsigned name="propertyArrayIndex" value="4294967295"/>
+</Sequence>
+<Unsigned name="Log_Timer" value="60485500"/>
+<Boolean name="Stop_When_Error_Full" value="0"/>
+<Boolean name="Restrict_Data_Range" value="0"/>
+<Array name="Timestamp_Buffer">
+<Unsigned name="1" value="60480096"/>
+<Unsigned name="2" value="0"/>
+<Unsigned name="3" value="0"/>
+<Unsigned name="4" value="0"/>
+<Unsigned name="5" value="0"/>
+<Unsigned name="6" value="0"/>
+<Unsigned name="7" value="0"/>
+<Unsigned name="8" value="0"/>
+<Unsigned name="9" value="0"/>
+<Unsigned name="10" value="0"/>
+<Unsigned name="11" value="0"/>
+<Unsigned name="12" value="0"/>
+<Unsigned name="13" value="0"/>
+<Unsigned name="14" value="0"/>
+<Unsigned name="15" value="0"/>
+<Unsigned name="16" value="0"/>
+<Unsigned name="17" value="0"/>
+<Unsigned name="18" value="0"/>
+<Unsigned name="19" value="0"/>
+<Unsigned name="20" value="0"/>
+<Unsigned name="21" value="0"/>
+<Unsigned name="22" value="0"/>
+<Unsigned name="23" value="0"/>
+<Unsigned name="24" value="0"/>
+<Unsigned name="25" value="0"/>
+<Unsigned name="26" value="0"/>
+<Unsigned name="27" value="0"/>
+<Unsigned name="28" value="0"/>
+<Unsigned name="29" value="0"/>
+<Unsigned name="30" value="0"/>
+<Unsigned name="31" value="0"/>
+<Unsigned name="32" value="0"/>
+<Unsigned name="33" value="0"/>
+<Unsigned name="34" value="0"/>
+<Unsigned name="35" value="0"/>
+<Unsigned name="36" value="0"/>
+<Unsigned name="37" value="0"/>
+<Unsigned name="38" value="0"/>
+<Unsigned name="39" value="0"/>
+<Unsigned name="40" value="0"/>
+<Unsigned name="41" value="0"/>
+<Unsigned name="42" value="0"/>
+<Unsigned name="43" value="0"/>
+<Unsigned name="44" value="0"/>
+<Unsigned name="45" value="0"/>
+<Unsigned name="46" value="0"/>
+<Unsigned name="47" value="0"/>
+<Unsigned name="48" value="0"/>
+<Unsigned name="49" value="0"/>
+<Unsigned name="50" value="0"/>
+<Unsigned name="51" value="0"/>
+<Unsigned name="52" value="0"/>
+<Unsigned name="53" value="0"/>
+<Unsigned name="54" value="0"/>
+<Unsigned name="55" value="0"/>
+<Unsigned name="56" value="0"/>
+<Unsigned name="57" value="0"/>
+<Unsigned name="58" value="0"/>
+<Unsigned name="59" value="0"/>
+<Unsigned name="60" value="0"/>
+<Unsigned name="61" value="0"/>
+<Unsigned name="62" value="0"/>
+<Unsigned name="63" value="0"/>
+<Unsigned name="64" value="0"/>
+<Unsigned name="65" value="0"/>
+<Unsigned name="66" value="0"/>
+<Unsigned name="67" value="0"/>
+<Unsigned name="68" value="0"/>
+<Unsigned name="69" value="0"/>
+<Unsigned name="70" value="0"/>
+<Unsigned name="71" value="0"/>
+<Unsigned name="72" value="0"/>
+<Unsigned name="73" value="0"/>
+<Unsigned name="74" value="0"/>
+<Unsigned name="75" value="0"/>
+<Unsigned name="76" value="0"/>
+<Unsigned name="77" value="0"/>
+<Unsigned name="78" value="0"/>
+<Unsigned name="79" value="0"/>
+<Unsigned name="80" value="0"/>
+<Unsigned name="81" value="0"/>
+<Unsigned name="82" value="0"/>
+<Unsigned name="83" value="0"/>
+<Unsigned name="84" value="0"/>
+<Unsigned name="85" value="0"/>
+<Unsigned name="86" value="0"/>
+<Unsigned name="87" value="0"/>
+<Unsigned name="88" value="0"/>
+<Unsigned name="89" value="0"/>
+<Unsigned name="90" value="0"/>
+<Unsigned name="91" value="0"/>
+<Unsigned name="92" value="0"/>
+<Unsigned name="93" value="0"/>
+<Unsigned name="94" value="0"/>
+<Unsigned name="95" value="0"/>
+<Unsigned name="96" value="0"/>
+<Unsigned name="97" value="0"/>
+<Unsigned name="98" value="0"/>
+<Unsigned name="99" value="0"/>
+<Unsigned name="100" value="0"/>
+</Array>
+<Array name="Flags_Buffer">
+<BitString name="1" value="error-entry"/>
+<BitString name="2" value=""/>
+<BitString name="3" value=""/>
+<BitString name="4" value=""/>
+<BitString name="5" value=""/>
+<BitString name="6" value=""/>
+<BitString name="7" value=""/>
+<BitString name="8" value=""/>
+<BitString name="9" value=""/>
+<BitString name="10" value=""/>
+<BitString name="11" value=""/>
+<BitString name="12" value=""/>
+<BitString name="13" value=""/>
+<BitString name="14" value=""/>
+<BitString name="15" value=""/>
+<BitString name="16" value=""/>
+<BitString name="17" value=""/>
+<BitString name="18" value=""/>
+<BitString name="19" value=""/>
+<BitString name="20" value=""/>
+<BitString name="21" value=""/>
+<BitString name="22" value=""/>
+<BitString name="23" value=""/>
+<BitString name="24" value=""/>
+<BitString name="25" value=""/>
+<BitString name="26" value=""/>
+<BitString name="27" value=""/>
+<BitString name="28" value=""/>
+<BitString name="29" value=""/>
+<BitString name="30" value=""/>
+<BitString name="31" value=""/>
+<BitString name="32" value=""/>
+<BitString name="33" value=""/>
+<BitString name="34" value=""/>
+<BitString name="35" value=""/>
+<BitString name="36" value=""/>
+<BitString name="37" value=""/>
+<BitString name="38" value=""/>
+<BitString name="39" value=""/>
+<BitString name="40" value=""/>
+<BitString name="41" value=""/>
+<BitString name="42" value=""/>
+<BitString name="43" value=""/>
+<BitString name="44" value=""/>
+<BitString name="45" value=""/>
+<BitString name="46" value=""/>
+<BitString name="47" value=""/>
+<BitString name="48" value=""/>
+<BitString name="49" value=""/>
+<BitString name="50" value=""/>
+<BitString name="51" value=""/>
+<BitString name="52" value=""/>
+<BitString name="53" value=""/>
+<BitString name="54" value=""/>
+<BitString name="55" value=""/>
+<BitString name="56" value=""/>
+<BitString name="57" value=""/>
+<BitString name="58" value=""/>
+<BitString name="59" value=""/>
+<BitString name="60" value=""/>
+<BitString name="61" value=""/>
+<BitString name="62" value=""/>
+<BitString name="63" value=""/>
+<BitString name="64" value=""/>
+<BitString name="65" value=""/>
+<BitString name="66" value=""/>
+<BitString name="67" value=""/>
+<BitString name="68" value=""/>
+<BitString name="69" value=""/>
+<BitString name="70" value=""/>
+<BitString name="71" value=""/>
+<BitString name="72" value=""/>
+<BitString name="73" value=""/>
+<BitString name="74" value=""/>
+<BitString name="75" value=""/>
+<BitString name="76" value=""/>
+<BitString name="77" value=""/>
+<BitString name="78" value=""/>
+<BitString name="79" value=""/>
+<BitString name="80" value=""/>
+<BitString name="81" value=""/>
+<BitString name="82" value=""/>
+<BitString name="83" value=""/>
+<BitString name="84" value=""/>
+<BitString name="85" value=""/>
+<BitString name="86" value=""/>
+<BitString name="87" value=""/>
+<BitString name="88" value=""/>
+<BitString name="89" value=""/>
+<BitString name="90" value=""/>
+<BitString name="91" value=""/>
+<BitString name="92" value=""/>
+<BitString name="93" value=""/>
+<BitString name="94" value=""/>
+<BitString name="95" value=""/>
+<BitString name="96" value=""/>
+<BitString name="97" value=""/>
+<BitString name="98" value=""/>
+<BitString name="99" value=""/>
+<BitString name="100" value=""/>
+</Array>
+<Choice name="Data_Buffer">
+<List name="real">
+<Real name="1" value="1.4013e-45"/>
+<Real name="2" value="0"/>
+<Real name="3" value="0"/>
+<Real name="4" value="0"/>
+<Real name="5" value="0"/>
+<Real name="6" value="0"/>
+<Real name="7" value="0"/>
+<Real name="8" value="0"/>
+<Real name="9" value="0"/>
+<Real name="10" value="0"/>
+<Real name="11" value="0"/>
+<Real name="12" value="0"/>
+<Real name="13" value="0"/>
+<Real name="14" value="0"/>
+<Real name="15" value="0"/>
+<Real name="16" value="0"/>
+<Real name="17" value="0"/>
+<Real name="18" value="0"/>
+<Real name="19" value="0"/>
+<Real name="20" value="0"/>
+<Real name="21" value="0"/>
+<Real name="22" value="0"/>
+<Real name="23" value="0"/>
+<Real name="24" value="0"/>
+<Real name="25" value="0"/>
+<Real name="26" value="0"/>
+<Real name="27" value="0"/>
+<Real name="28" value="0"/>
+<Real name="29" value="0"/>
+<Real name="30" value="0"/>
+<Real name="31" value="0"/>
+<Real name="32" value="0"/>
+<Real name="33" value="0"/>
+<Real name="34" value="0"/>
+<Real name="35" value="0"/>
+<Real name="36" value="0"/>
+<Real name="37" value="0"/>
+<Real name="38" value="0"/>
+<Real name="39" value="0"/>
+<Real name="40" value="0"/>
+<Real name="41" value="0"/>
+<Real name="42" value="0"/>
+<Real name="43" value="0"/>
+<Real name="44" value="0"/>
+<Real name="45" value="0"/>
+<Real name="46" value="0"/>
+<Real name="47" value="0"/>
+<Real name="48" value="0"/>
+<Real name="49" value="0"/>
+<Real name="50" value="0"/>
+<Real name="51" value="0"/>
+<Real name="52" value="0"/>
+<Real name="53" value="0"/>
+<Real name="54" value="0"/>
+<Real name="55" value="0"/>
+<Real name="56" value="0"/>
+<Real name="57" value="0"/>
+<Real name="58" value="0"/>
+<Real name="59" value="0"/>
+<Real name="60" value="0"/>
+<Real name="61" value="0"/>
+<Real name="62" value="0"/>
+<Real name="63" value="0"/>
+<Real name="64" value="0"/>
+<Real name="65" value="0"/>
+<Real name="66" value="0"/>
+<Real name="67" value="0"/>
+<Real name="68" value="0"/>
+<Real name="69" value="0"/>
+<Real name="70" value="0"/>
+<Real name="71" value="0"/>
+<Real name="72" value="0"/>
+<Real name="73" value="0"/>
+<Real name="74" value="0"/>
+<Real name="75" value="0"/>
+<Real name="76" value="0"/>
+<Real name="77" value="0"/>
+<Real name="78" value="0"/>
+<Real name="79" value="0"/>
+<Real name="80" value="0"/>
+<Real name="81" value="0"/>
+<Real name="82" value="0"/>
+<Real name="83" value="0"/>
+<Real name="84" value="0"/>
+<Real name="85" value="0"/>
+<Real name="86" value="0"/>
+<Real name="87" value="0"/>
+<Real name="88" value="0"/>
+<Real name="89" value="0"/>
+<Real name="90" value="0"/>
+<Real name="91" value="0"/>
+<Real name="92" value="0"/>
+<Real name="93" value="0"/>
+<Real name="94" value="0"/>
+<Real name="95" value="0"/>
+<Real name="96" value="0"/>
+<Real name="97" value="0"/>
+<Real name="98" value="0"/>
+<Real name="99" value="0"/>
+<Real name="100" value="0"/>
+</List>
+</Choice>
+<Array name="Error_Buffer">
+<Choice name="1">
+<BitString name="eventData" value="buffer-purged"/>
+</Choice>
+<Choice name="2">
+<Sequence name="errorData">
+<Enumerated name="error-class" value="device"/>
+<Enumerated name="error-code" value="other"/>
+</Sequence>
+</Choice>
+<Choice name="3">
+<Sequence name="errorData">
+<Enumerated name="error-class" value="device"/>
+<Enumerated name="error-code" value="other"/>
+</Sequence>
+</Choice>
+<Choice name="4">
+<Sequence name="errorData">
+<Enumerated name="error-class" value="device"/>
+<Enumerated name="error-code" value="other"/>
+</Sequence>
+</Choice>
+<Choice name="5">
+<Sequence name="errorData">
+<Enumerated name="error-class" value="device"/>
+<Enumerated name="error-code" value="other"/>
+</Sequence>
+</Choice>
+<Choice name="6">
+<Sequence name="errorData">
+<Enumerated name="error-class" value="device"/>
+<Enumerated name="error-code" value="other"/>
+</Sequence>
+</Choice>
+<Choice name="7">
+<Sequence name="errorData">
+<Enumerated name="error-class" value="device"/>
+<Enumerated name="error-code" value="other"/>
+</Sequence>
+</Choice>
+<Choice name="8">
+<Sequence name="errorData">
+<Enumerated name="error-class" value="device"/>
+<Enumerated name="error-code" value="other"/>
+</Sequence>
+</Choice>
+<Choice name="9">
+<Sequence name="errorData">
+<Enumerated name="error-class" value="device"/>
+<Enumerated name="error-code" value="other"/>
+</Sequence>
+</Choice>
+<Choice name="10">
+<Sequence name="errorData">
+<Enumerated name="error-class" value="device"/>
+<Enumerated name="error-code" value="other"/>
+</Sequence>
+</Choice>
+</Array>
+<Array name="Err_Buf_2_Data_Buf_Idx">
+</Array>
+<DateTime name="Time_Reference" value="2021-05-05 19:39:05.00"/>
+<Unsigned name="Time_Reference_Count" value="0"/>
+<Unsigned name="Next_Error_Index" value="2"/>
+<Unsigned name="Error_Count" value="1"/>
+<Unsigned name="Error_Buffer_Size" value="10"/>
+<Unsigned name="Next_Index" value="2"/>
+<BitString name="Status_Flags" value=""/>
+<Unsigned name="Start_Timer" value="249385"/>
+<Unsigned name="Stop_Timer" value=""/>
+<Boolean name="Is_Historical" value="0"/>
+<Boolean name="Manual_Override" value=""/>
+<BitString name="HAL_Flags" value="hvac"/>
+</Object>

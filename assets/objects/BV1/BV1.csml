@@ -1,0 +1,23 @@
+<Object name="BV1">
+<String name="Active_Text" value="ON"/>
+<String name="Description" value=""/>
+<Enumerated name="Event_State" value="normal"/>
+<String name="Inactive_Text" value="OFF"/>
+<ObjectIdentifier name="Object_Identifier" value="binary-value,1"/>
+<String name="Object_Name" value="BV1"/>
+<Enumerated name="Object_Type" value="binary-value"/>
+<Boolean name="Out_Of_Service" value="0"/>
+<Enumerated name="Present_Value" value="inactive"/>
+<Enumerated name="Reliability" value="no-fault-detected"/>
+<BitString name="Status_Flags" value=""/>
+<Unsigned name="Object_Size" value="40"/>
+<BitString name="Flags" value=""/>
+<Enumerated name="GCL_Value" value="inactive"/>
+<Boolean name="Reset" value="0"/>
+<ObjectIdentifierPattern name="Type_Reference" value="*"/>
+<ObjectIdentifierPattern name="Last_Writer" value="*"/>
+<DateTimePattern name="Time_Of_Last_Write" value="*-*-* * *:*:*.*"/>
+<String name="Text_Value" value="OFF"/>
+<Enumerated name="Manual_Override" value=""/>
+<BitString name="HAL_Flags" value="hvac"/>
+</Object>

@@ -1,0 +1,159 @@
+<Object name="BO2">
+<BitString name="Acked_Transitions" value=""/>
+<String name="Active_Text" value="ON"/>
+<Unsigned name="Change_Of_State_Count" value="0"/>
+<DateTimePattern name="Change_Of_State_Time" value="*-*-* * *:*:*.*"/>
+<Unsigned name="Notification_Class" value="0"/>
+<String name="Description" value=""/>
+<String name="Device_Type" value=""/>
+<BitString name="Event_Enable" value=""/>
+<Enumerated name="Event_State" value="normal"/>
+<Enumerated name="Feedback_Value" value="inactive"/>
+<String name="Inactive_Text" value="OFF"/>
+<Unsigned name="Minimum_Off_Time" value="60"/>
+<Unsigned name="Minimum_On_Time" value="0"/>
+<Enumerated name="Notify_Type" value="alarm"/>
+<ObjectIdentifier name="Object_Identifier" value="binary-output,2"/>
+<String name="Object_Name" value="BO2"/>
+<Enumerated name="Object_Type" value="binary-output"/>
+<Boolean name="Out_Of_Service" value="0"/>
+<Enumerated name="Polarity" value="normal"/>
+<Enumerated name="Present_Value" value="inactive"/>
+<Array name="Priority_Array">
+<Enumerated name="1" value=""/>
+<Enumerated name="2" value=""/>
+<Enumerated name="3" value=""/>
+<Enumerated name="4" value=""/>
+<Enumerated name="5" value=""/>
+<Enumerated name="6" value=""/>
+<Enumerated name="7" value=""/>
+<Enumerated name="8" value=""/>
+<Enumerated name="9" value=""/>
+<Enumerated name="10" value=""/>
+<Enumerated name="11" value=""/>
+<Enumerated name="12" value=""/>
+<Enumerated name="13" value=""/>
+<Enumerated name="14" value=""/>
+<Enumerated name="15" value=""/>
+<Enumerated name="16" value=""/>
+</Array>
+<Enumerated name="Reliability" value="no-fault-detected"/>
+<Enumerated name="Relinquish_Default" value="inactive"/>
+<BitString name="Status_Flags" value=""/>
+<Unsigned name="Time_Delay" value="0"/>
+<DateTimePattern name="Time_Of_State_Count_Reset" value="*-*-* * *:*:*.*"/>
+<Array name="Event_Time_Stamps">
+<Choice name="1">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+<Choice name="2">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+<Choice name="3">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+</Array>
+<Unsigned name="Object_Size" value="380"/>
+<BitString name="Flags" value="private2;not-commissioned"/>
+<Boolean name="Reset" value="0"/>
+<Enumerated name="Commission_Flag" value="not-commissioned"/>
+<ObjectIdentifierPattern name="Type_Reference" value="*"/>
+<Array name="Prev_Change_Of_State_Times">
+<DateTimePattern name="1" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="2" value="*-*-* * *:*:*.*"/>
+</Array>
+<Unsigned name="Minimum_Delay_Timer" value="0"/>
+<Unsigned name="Current_Priority" value="17"/>
+<Boolean name="Critical_Control" value="1"/>
+<Array name="Last_Writer">
+<ObjectIdentifierPattern name="1" value="*"/>
+<ObjectIdentifierPattern name="2" value="*"/>
+<ObjectIdentifierPattern name="3" value="*"/>
+<ObjectIdentifierPattern name="4" value="*"/>
+<ObjectIdentifierPattern name="5" value="*"/>
+<ObjectIdentifierPattern name="6" value="*"/>
+<ObjectIdentifierPattern name="7" value="*"/>
+<ObjectIdentifierPattern name="8" value="*"/>
+<ObjectIdentifierPattern name="9" value="*"/>
+<ObjectIdentifierPattern name="10" value="*"/>
+<ObjectIdentifierPattern name="11" value="*"/>
+<ObjectIdentifierPattern name="12" value="*"/>
+<ObjectIdentifierPattern name="13" value="*"/>
+<ObjectIdentifierPattern name="14" value="*"/>
+<ObjectIdentifierPattern name="15" value="*"/>
+<ObjectIdentifierPattern name="16" value="*"/>
+</Array>
+<Array name="Time_Of_Last_Write">
+<DateTimePattern name="1" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="2" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="3" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="4" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="5" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="6" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="7" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="8" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="9" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="10" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="11" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="12" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="13" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="14" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="15" value="*-*-* * *:*:*.*"/>
+<DateTimePattern name="16" value="*-*-* * *:*:*.*"/>
+</Array>
+<Enumerated name="Port_Status" value="active"/>
+<Unsigned name="DA_Value" value="0"/>
+<Real name="Output_Volt" value="0"/>
+<Enumerated name="Module_Type" value="none"/>
+<Enumerated name="HOA_Status" value="auto"/>
+<Enumerated name="Delay_Status" value="timer-inactive"/>
+<Unsigned name="Start_Delay_Time" value="5"/>
+<BitString name="Start_Delay_Flags" value=""/>
+<Enumerated name="FBack_Value" value="inactive"/>
+<Boolean name="FBack_Reversed" value="0"/>
+<Enumerated name="FBack_Enable" value="disable"/>
+<Unsigned name="FBack_Input" value="0"/>
+<Enumerated name="FBack_Status" value="not-available"/>
+<Time name="Delay_Count_Down" value="00:00:00.00"/>
+<String name="Text_Value" value="OFF"/>
+<Enumerated name="Manual_Override" value=""/>
+<BitString name="HAL_Flags" value="hvac"/>
+<Boolean name="Flick_Warn_Enable" value="0"/>
+<Unsigned name="Flick_Warn_Time" value="0"/>
+<Unsigned name="Flick_Warn_Timer" value=""/>
+<Unsigned name="Flick_Warn_Active" value="0"/>
+<Unsigned name="Flick_Warn_Paenable" value="0"/>
+<Sequence name="Override_Ref">
+<Unsigned name="deviceIdentifier" value="4194303"/>
+<ObjectIdentifier name="objectIdentifier" value="*"/>
+<Enumerated name="propertyIdentifier" value="4194303"/>
+<Unsigned name="propertyArrayIndex" value="4294967295"/>
+</Sequence>
+<Boolean name="Override_Prev_Val" value="0"/>
+<Unsigned name="Override_Time" value="0"/>
+<Unsigned name="Override_Timer" value=""/>
+<Unsigned name="Reliability_Timer" value="0"/>
+<BitString name="Event_List" value=""/>
+<Enumerated name="Prev_Reliability" value="no-fault-detected"/>
+<Boolean name="Event_Detection_Enable" value="0"/>
+<Array name="Intrinsic_Info">
+</Array>
+<Array name="Event_Message_Texts_Config">
+<String name="1" value=""/>
+<String name="2" value=""/>
+<String name="3" value=""/>
+</Array>
+<Sequence name="LC_Command">
+<Enumerated name="value" value="no-action"/>
+<Unsigned name="priority" value="0"/>
+<Enumerated name="flickWarnEnable" value="off"/>
+<Unsigned name="flickWarnOnTime" value="0"/>
+<Unsigned name="flickWarnOffTime" value="0"/>
+</Sequence>
+<Array name="LC_User_Properties">
+</Array>
+<Array name="LC_Internal_Properties">
+</Array>
+<Array name="LC_Priority_Array">
+</Array>
+</Object>

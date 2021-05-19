@@ -1,0 +1,57 @@
+<Object name="BI2">
+<BitString name="Acked_Transitions" value=""/>
+<String name="Active_Text" value="ON"/>
+<Enumerated name="Alarm_Value" value="inactive"/>
+<Unsigned name="Change_Of_State_Count" value="1"/>
+<DateTime name="Change_Of_State_Time" value="2021-05-12 19:37:23.18"/>
+<Unsigned name="Notification_Class" value="0"/>
+<String name="Description" value=""/>
+<String name="Device_Type" value=""/>
+<BitString name="Event_Enable" value=""/>
+<Enumerated name="Event_State" value="normal"/>
+<String name="Inactive_Text" value="OFF"/>
+<Enumerated name="Notify_Type" value="alarm"/>
+<ObjectIdentifier name="Object_Identifier" value="binary-input,2"/>
+<String name="Object_Name" value="BI2"/>
+<Enumerated name="Object_Type" value="binary-input"/>
+<Boolean name="Out_Of_Service" value="0"/>
+<Enumerated name="Polarity" value="normal"/>
+<Enumerated name="Present_Value" value="active"/>
+<Enumerated name="Reliability" value="no-fault-detected"/>
+<BitString name="Status_Flags" value=""/>
+<Unsigned name="Time_Delay" value="0"/>
+<DateTime name="Time_Of_State_Count_Reset" value="2021-05-12 19:37:23.01"/>
+<Array name="Event_Time_Stamps">
+<Choice name="1">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+<Choice name="2">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+<Choice name="3">
+<DateTimePattern name="dateTime" value="*-*-* * *:*:*.*"/>
+</Choice>
+</Array>
+<Unsigned name="Object_Size" value="75"/>
+<BitString name="Flags" value="not-commissioned"/>
+<Boolean name="Reset" value="0"/>
+<Enumerated name="Commission_Flag" value="not-commissioned"/>
+<ObjectIdentifierPattern name="Type_Reference" value="*"/>
+<Array name="Prev_Change_Of_State_Times">
+<DateTimePattern name="1" value="*-*-* * *:*:*.*"/>
+<DateTime name="2" value="2021-05-12 19:37:23.18"/>
+</Array>
+<Unsigned name="Update_Interval" value="200"/>
+<String name="Text_Value" value="ON"/>
+<Enumerated name="Manual_Override" value=""/>
+<BitString name="HAL_Flags" value="hvac"/>
+<Enumerated name="Value_Source" value="configuration-(bdc)"/>
+<Boolean name="Event_Detection_Enable" value="0"/>
+<Array name="Intrinsic_Info">
+</Array>
+<Array name="Event_Message_Texts_Config">
+<String name="1" value=""/>
+<String name="2" value=""/>
+<String name="3" value=""/>
+</Array>
+</Object>
