@@ -2,6 +2,13 @@ import sys
 import Database_ZOB_Builder
 from PyQt5 import QtWidgets, Qt, QtCore
 from open_file_dialog import open_fd
+from generate_new_excel_template import create_excel_workbook
+
+
+# generate a new excel workbook from template
+def create_new_workbook():
+    create_excel_workbook()
+    pass
 
 
 # ZOB Creation
@@ -9,6 +16,7 @@ def create_zob_objects():
     pass
 
 
+# load an excel workbook
 def load_file():
     file_path = open_fd()
     if file_path == '':
@@ -28,7 +36,6 @@ def load_file():
 # Main loop
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
-    print(QtWidgets.QStyleFactory.keys())
     window = QtWidgets.QMainWindow()
     ui = Database_ZOB_Builder.Ui_MainWindow()
     ui.setupUi(window)
@@ -36,6 +43,7 @@ if __name__ == '__main__':
 
     # Menu actions
     ui.actionClose.triggered.connect(sys.exit)
+    ui.actionNewExcelTemplate.triggered.connect(create_new_workbook)
 
     # Main window buttons
     ui.create_zob_button.clicked.connect(create_zob_objects)
