@@ -3,3 +3,5 @@ This tool is intended to be used by technicians using Delta Controls product lin
 <br><br>The tool will use a specifically formatted Microsoft Excel workbook to pull the point information from for point creation.<br><br>
 ## Features
 To be finalized.
+## Rules for contributing
+To be finalized. 
